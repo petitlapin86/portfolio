@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+
+/*above is the font im importing in for oh, hello.*/
+
+/*comment*/
+
+
+/*comment*/
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+
+
+.attention {
+  font-weight: normal;
+  font-size: 10em;
+  line-height: 1.5em;
+  font-family: 'Rozha One', serif;
+  text-align: center;
+}
+/*comment*/
+
+.main {
+  font-weight: normal;
+  font-size: 2em;
+  line-height: 1em;
+  font-family: Arial, serif;
+  text-align: center;
+}
