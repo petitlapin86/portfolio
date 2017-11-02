@@ -15,10 +15,10 @@ p {
 
 
 
-.attention {
+#attention {
   font-weight: normal;
-  font-size: 10em;
-  line-height: 1.5em;
+  font-size: 6em;
+  line-height: 0.0em;
   font-family: 'Rozha One', serif;
   text-align: center;
 }
@@ -67,7 +67,7 @@ p {
 }
 
 /* this is preventing children
- from collapsing because they 
+ from collapsing because they
  are all floating */
 .clearfix:after {
   content: ".";
