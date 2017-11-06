@@ -11,10 +11,6 @@
     font-size: 85%;
   }
 
-  .col-1 {
-
-  }
-
 }
 
 /*BELOW ARE CHANGES FOR NAVBAR HAMBURGER ICON*/
@@ -39,4 +35,11 @@
     margin-left: 0;
     float: none;
   }
+  body {
+    font-size: 75%;
+  }
+  #attention {
+    font-size: 3em;
+  }
+
 }
