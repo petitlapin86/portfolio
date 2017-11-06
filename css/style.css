@@ -64,16 +64,26 @@ img, video, audio {
   max-width: 75%;
 }
 
-/*comment*/
-
+/*PARAGRAPH AND HEADER STYLING*/
 p {
   font-size: 1.3em;
   line-height: 1.5em;
-  font-family: times, serif;
+  font-family: arial, serif;
 }
 
+h2 {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-family: "Trebuchet MS", serif;
+}
 
+h1 {
+  font-size: 2.3em;
+  line-height: 1.5em;
+  font-family: "Trebuchet MS", serif;
+}
 
+/*Oh, hello styling*/
 #attention {
   font-weight: normal;
   font-size: 5em;
@@ -81,13 +91,20 @@ p {
   font-family: 'Rozha One', serif;
   text-align: center;
 }
-/*comment*/
 
+
+/*LINK COLOr STYLING*/
+a:link
+{
+color: #daebee;
+}
+
+/*comment*/
 .main {
   font-weight: normal;
   font-size: 1.3em;
   line-height: 1em;
-  font-family: courier, serif;
+  font-family: times, serif;
   text-align: center;
   padding-top: 60px;
 }
@@ -96,8 +113,8 @@ p {
 .wrapper {
   width: 960px;
   margin: 0 auto;
-
 }
+
 
 * {
   -webkit-box-sizing: border-box;
@@ -106,7 +123,6 @@ p {
 }
 section {
   padding: 20px;
-  margin-bottom: 20px;
 }
 
 /*//COLUMNS//*/
