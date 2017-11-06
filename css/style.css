@@ -45,12 +45,18 @@ figure.snip1113 {
   text-decoration: none;
   font: 1em "Trebuchet MS", Arial, sans-serif;
 }
-
 /*styling the selected navbar page you are clicked on*/
 #navbar nav a.selected {
   background: #daebee;
   color: white;
 }
+/*this is for the hamburger icon for when navbar gets minimized*/
+#navbar nav a.menu-icon {
+  display: none;
+}
+
+
+
 /*MEDIA STYLING*/
 /*this keeps them from getting larger than the confines of columns etc.*/
 img, video, audio {
