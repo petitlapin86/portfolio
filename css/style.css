@@ -114,13 +114,20 @@ color: black;
   line-height: 1em;
   font-family: times, serif;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 100px;
+
 }
 
 /*LAYOUT STYLING*/
 .wrapper {
   width: 960px;
   margin: 0 auto;
+}
+
+.footer {
+  text-align: center;
+  font-size: .5em;
+  font-family: times, serif;
 }
 
 
@@ -155,7 +162,35 @@ padding: 20px;
 .col-3 {
   background: #f0f2f4; /*this is the gray color */
   padding: 20px;
+  padding-top: 80px;
+}
+
+/* this one is for contact form */
+.col-services {
+  float: left;
+  width: 100%;
   padding-top: 40px;
+  margin-top: 80px;
+  background: #f0f2f4; /*this is the gray color */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: 470px;
+  overflow: auto;
+}
+
+/* this one is for contact form */
+.col-contact {
+  float: left;
+  width: 100%;
+  padding-top: 40px;
+  margin-top: 80px;
+  background: #f0f2f4; /*this is the gray color */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: 550px;
+  overflow: auto;
 }
 
 /* this one is 1/3 of the space */
@@ -186,6 +221,7 @@ padding: 20px;
   overflow: auto;
 }
 
+/* this one is 1/3 of the space*/
 .col-5-gradient {
   float: left;
   width: 31.3%;
