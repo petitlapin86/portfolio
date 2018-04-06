@@ -30,7 +30,7 @@
 
 
 @media only screen and (max-width: 700px) {
-  .col-1, .col-2, .col-3, .col-4 {
+  .col-1, .col-2, .col-3, .col-4, .col-services, .col-contact, .col-4-gradient, .col-5-gradient {
     width: 100%;
     margin-left: 0;
     float: none;

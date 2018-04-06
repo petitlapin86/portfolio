@@ -141,6 +141,7 @@ section {
 }
 
 /*//COLUMNS//*/
+
 /* this one is 1/4 of the space */
 .col-1 {
   float: left;
@@ -149,7 +150,7 @@ section {
   padding: 20px;
   height: 300px;
   column-gap: 1em;
-  overflow: auto;
+  overflow: fixed;
 }
 /* this one is 2/3 of the space */
 .col-2 {
@@ -167,8 +168,6 @@ padding: 20px;
 
 /* this one is for contact form */
 .col-services {
-  float: left;
-  width: 100%;
   padding-top: 40px;
   margin-top: 80px;
   background: #f0f2f4; /*this is the gray color */
@@ -181,8 +180,6 @@ padding: 20px;
 
 /* this one is for contact form */
 .col-contact {
-  float: left;
-  width: 100%;
   padding-top: 40px;
   margin-top: 80px;
   background: #f0f2f4; /*this is the gray color */
