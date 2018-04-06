@@ -16,6 +16,9 @@
     </script>
     <!--below im linking to my responsive CSS-->
   <link rel="stylesheet" href="css/responsive.css">
+    <!--below im linking to my JS reportcard widget-->
+  <link rel="stylesheet" href="widget/reportcard/css/badges.css">
+
 </head>
 
 <body>
@@ -39,10 +42,10 @@
         </div>
           </section>
 
-          <section id="skills">
+          <section>
             <div class=" wrapper clearfix">
           <div class="col-1 first">
-              <h1>I<br>CAN<br>HELP<br>YOU<br>WITH</h1>
+              <h2>I<br>CAN<br>HELP<br>YOU<br>WITH</h2>
             </div>
             <div class="col-1">
               <h2>HTML CSS & JAVASCRIPT</h2>
@@ -70,8 +73,13 @@
           </div>
           </section>
 
+          <!--this line of code inserts actual treehouse widgets below-->
+          <div class="report-card treehouse"></div>
+
           <div class="footer">
           <footer><p>&copy; moon boots 2017. All Rights Reserved.</p></footer> <!--semantic elements-->
           </div>
 
+      <!--JS report card widget below-->
+      <script src="widget/reportcard/js/reportcard.js"></script>
   </body>
