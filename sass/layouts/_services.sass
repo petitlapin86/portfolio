@@ -1,0 +1,33 @@
+//services
+.row
+  display: flex
+  flex-wrap: wrap
+  margin-right: -15px
+  margin-left: -15px
+  width: 100%
+.col-sm-3
+  flex-basis: 25%
+  max-width: 25%
+  width: 25%
+  padding: 0 10px 15px 10px
+  box-sizing: border-box
+  @media only screen and (max-width : 767px)
+    flex-basis: 100%
+    max-width: 100%
+.col-sm-12
+  flex-basis: 100%
+  max-width: 100%
+  padding: 0 10px 15px 10px
+  box-sizing: border-box
+.services
+  width: 100%
+.services__card
+  background: $gray
+  padding: 15px
+.services__title
+  +font(21px, $font-rozhaone, 400)
+  letter-spacing: 0.2px
+  margin-bottom: 20px
+.services__text
+  +font(16px, $font-raleway, 400)
+//services END
