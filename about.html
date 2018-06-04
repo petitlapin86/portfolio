@@ -27,7 +27,6 @@
 
 	<!-- Load Custom CSS Start -->
 	<script>loadCSS("css/main.min.css?ver=1.0.0", false, "all" );</script>
-	<script>loadCSS("css/style.css?ver=1.0.0", false, "all" );</script>
 	<!-- Load Custom CSS End -->
 
 	<!-- Load Custom CSS Compiled without JS Start -->
@@ -48,53 +47,66 @@
 			<a class="navbar__link" href="contact.html">Contact</a>
 		</nav>
 		<button class="btn btn-hamburger"><span class="icon-menu">&#9776;</span><span class="icon-hamburger">&#x2573;</span></button>
-	</header><!-- header END -->
-
-  <section>
-    <div class="wrapper clearfix">
-      <div class="col-5-gradient first">
-        <h2>PAIGE MADELINE JONES</h2>
-        <img src="images/Low_Poly__transparent.png" alt="paige"/>
-      </div>
-      <div class="col-4">
-        <h2>RESUME</h2>
-        <img id="myImg" src="images/resume.png" alt="Resume" width="250" height="350">
+  </header><!-- header END -->
+  <!-- main -->
+  <section class="main">
+    <!-- main__block -->
+    <div class="main__block">
+      <!-- about -->
+      <div class="row about">
         <div id="myModal" class="modal">
           <!-- The Close Button -->
           <span class="close">&times;</span>
           <!-- Modal Content (The Image) -->
           <img class="modal-content" id="img01">
         </div>
-      </div><!--closes class col-4-->
-      <div class="col-4-gradient">
-        <ul id="container">
-          <h2>FOLLOW ME</h2>
-          <p><a href="https://github.com/petitlapin86/"><img src="images/Github.png" style="vertical-align: middle" alt="Github" width="50" height="50" border="0"></a></p>
-          <p><a href="https://www.instagram.com/patienceandfortitudeco/"><img style="vertical-align: middle" src="images/Instagram.png" alt="Instagram" width="50" height="50" border="0" ></a></p>
-          <p><a href="https://www.pinterest.com/patiencefort/"><img style="vertical-align: middle"src="images/Pinterest.png" alt="Pinterest" width="50" height="50" border="0"></a></p>
-          <p><a href="https://www.linkedin.com/in/paige-jones-37942b27"><img style="vertical-align: middle" src="images/LinkedIn.png" alt="Linkedin" width="50" height="50" border="0"></a><p>
-          <p><a href="mailto:paigemadelinejones@gmail.com"><img style="vertical-align: middle" src="images/Email.png" alt="Email" width="50" height="50" border="0"></a></p>
-        </ul>
-      </div><!--closes class col-4-->
-    </div> <!--closes wrapper-->
-  </section>
+        <!-- col-sm-4 -->
+        <div class="col-sm-4">
+          <div class="avatar">
+            <h2 class="h2">PAIGE MADELINE JONES</h2>
+            <img class="avatar__img" src="images/Low_Poly__transparent.png" width="250" height="350"alt="paige"/>
+          </div><!-- avatar END -->
+        </div><!-- col-sm-4 END -->
+        <!-- col-sm-4 -->
+        <div class="col-sm-4">
+          <div class="resume">
+            <h2 class="h2">RESUME</h2>
+            <img id="myImg" class="resume__img" src="images/resume.png" alt="Resume">
+          </div><!-- resume END -->
+        </div><!-- col-sm-4 END -->
+        <!-- col-sm-4 -->
+        <div class="col-sm-4">
+          <div class="follow">
+            <h2 class="h2">FOLLOW ME</h2>
+            <ul class="list">
+              <li class="list__item list__item-follow"><a href="https://github.com/petitlapin86/"><img src="images/Github.png" style="vertical-align: middle" alt="Github" width="50" height="50" border="0"></a></li>
+              <li class="list__item list__item-follow"><a href="https://www.instagram.com/patienceandfortitudeco/"><img style="vertical-align: middle" src="images/Instagram.png" alt="Instagram" width="50" height="50" border="0" ></a></li>
+              <li class="list__item list__item-follow"><a href="https://www.pinterest.com/patiencefort/"><img style="vertical-align: middle"src="images/Pinterest.png" alt="Pinterest" width="50" height="50" border="0"></a></li>
+              <li class="list__item list__item-follow"><a href="https://www.linkedin.com/in/paige-jones-37942b27"><img style="vertical-align: middle" src="images/LinkedIn.png" alt="Linkedin" width="50" height="50" border="0"></a></li>
+              <li class="list__item list__item-follow"><a href="mailto:paigemadelinejones@gmail.com"><img style="vertical-align: middle" src="images/Email.png" alt="Email" width="50" height="50" border="0"></a></li>
+            </ul>
+          </div>
+        </div><!-- col-sm-4 END -->
+        <div class="col-sm-12">
+          <div class="factsheet">
+            <h2>FACT SHEET:</h2>
+            <ul class="list list-factsheet">
+              <li class="list__item">Recently moved out of Manhattan to rural Vermont</li>
+              <li class="list__item">Sailed on 6 of the 7 seas</li>
+              <li class="list__item">Previously Founded a Startup</li>
+              <li class="list__item">Made her own wedding dress</li>
+              <li class="list__item">Has a pet bunny named Mable Moon Boots</li>
+            </ul>
+          </div>
+        </div>
+      </div><!--about END -->
+    </div><!--main__block END  -->
+  </section><!-- main END -->
+ <!-- footer -->
+<footer class="footer">
+  <p class="footer__copyright">&copy; moon boots 2017. All Rights Reserved.</p>
+</footer><!-- footer END -->
 
-  <section>
-    <div class="wrapper">
-      <div class="col-3 col-12">
-        <h2>FACT SHEET:</h2>
-        <p>• Recently moved out of Manhattan to rural Vermont</p>
-        <p>• Sailed on 6 of the 7 seas</p>
-        <p>• Previously Founded a Startup</p>
-        <p>• Made her own wedding dress</p>
-        <p>• Has a pet bunny named Mable Moon Boots</p>
-      </div><!--closes class col-3-->
-    </div><!--closes wrapper-->
-  </section>
-	<!-- footer -->
-	<footer class="footer">
-		<p class="footer__copyright">&copy; moon boots 2017. All Rights Reserved.</p>
-	</footer><!-- footer END -->
 
 
   <script>   // JAVASCRIPT FOR RESUME POP UP
