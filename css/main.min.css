@@ -184,7 +184,9 @@
       width: 740px; } }
   @media only screen and (max-width: 767px) {
     .main__block {
-      width: 460px; } }
+      width: 460px;
+      padding-left: 10px;
+      padding-right: 10px; } }
   @media only screen and (max-width: 479px) {
     .main__block {
       width: 100%; } }
@@ -194,8 +196,7 @@
   margin-bottom: 20px; }
   @media only screen and (max-width: 767px) {
     .main__img {
-      margin-bottom: 25px;
-      display: none; } }
+      margin: 0 20px 25px 20px; } }
 
 .main__title {
   font-size: 104px;
