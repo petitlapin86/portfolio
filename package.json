@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "paige madeline jones portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petitlapin86/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petitlapin86/portfolio/issues"
+  },
+  "homepage": "https://github.com/petitlapin86/portfolio#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
